@@ -26,7 +26,7 @@ const NoMembers: React.FC<{
       <Button className="w-[200px]">
         <AddMembers group={group} enableSendingInvites={enableSendingInvites}>
           <UserPlus className="h-5 w-5 text-primary-foreground" />
-          <p>Add Members</p>
+          <p>Teilnehmer hinzufügen</p>
         </AddMembers>
       </Button>
       <p className="text-gray-400">or</p>
@@ -34,10 +34,10 @@ const NoMembers: React.FC<{
         {!isCopied ? (
           <>
             <Share className="h-5 w-5" />
-            Share invite link
+            Einladungslink teilen
           </>
         ) : (
-          'Copied'
+          'Kopiert'
         )}
       </Button>
     </div>

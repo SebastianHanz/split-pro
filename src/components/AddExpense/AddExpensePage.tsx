@@ -213,12 +213,12 @@ export const AddExpensePage: React.FC<{
           {participants.length === 1 ? (
             <Link href="/balances">
               <Button variant="ghost" className=" px-0 text-primary">
-                Cancel
+                Abbrechen
               </Button>
             </Link>
           ) : (
             <Button variant="ghost" className=" px-0 text-primary" onClick={resetState}>
-              Cancel
+              Abbrechen
             </Button>
           )}
           <div className="text-center">Neue Ausgabe hinzufügen</div>
@@ -234,7 +234,7 @@ export const AddExpensePage: React.FC<{
             }
             onClick={addExpense}
           >
-            Save
+            Speichern
           </Button>{' '}
         </div>
         <UserInput />

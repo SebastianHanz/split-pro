@@ -86,10 +86,10 @@ export const UserInput: React.FC = () => {
         type="email"
         placeholder={
           group
-            ? 'Press delete to remove group'
+            ? 'Klicke entfernen um die Gruppe zu löschen'
             : participants.length > 1
-              ? 'Add more friends'
-              : 'Search friends, groups or add email'
+              ? 'Füge Freunde hinzu'
+              : 'Suche Freunde, Gruppen oder eMail-Adressen'
         }
         value={nameOrEmail}
         onChange={(e) => setNameOrEmail(e.target.value)}

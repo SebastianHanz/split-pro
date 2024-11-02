@@ -47,7 +47,7 @@ const AccountPage: NextPageWithUser = ({ user }) => {
   return (
     <>
       <Head>
-        <title>Account</title>
+        <title>Konto</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainLayout title="Account" header={<div className="text-3xl font-semibold">Account</div>}>
@@ -128,7 +128,7 @@ const AccountPage: NextPageWithUser = ({ user }) => {
             >
               <div className="flex items-center gap-4">
                 <FileDown className="h-5 w-5 text-teal-500" />
-                SplitPro Daten exportieren als JSON
+                Exportiere SplitPro Daten als JSON
               </div>
               {downloading ? (
                 <LoadingSpinner />
@@ -143,7 +143,7 @@ const AccountPage: NextPageWithUser = ({ user }) => {
               >
                 <div className="flex items-center gap-4">
                   <DownloadCloud className="h-5 w-5 text-violet-500" />
-                  Import von Splitwise
+                  Importiere von Splitwise
                 </div>
                 <ChevronRight className="h-6 w-6 text-gray-500" />
               </Button>
@@ -156,7 +156,7 @@ const AccountPage: NextPageWithUser = ({ user }) => {
               className="text-orange-600 hover:text-orange-600/90 "
               onClick={() => signOut()}
             >
-              Logout
+              Abmelden
             </Button>
           </div>
         </div>

@@ -35,11 +35,11 @@ const InstallApp: React.FC = () => {
         trigger={
           <Button className="w-[250px]">
             <Download className="mr-2 h-5 w-5 text-black" />
-            Download App
+            App Herunterladen
           </Button>
         }
         leftAction="Close"
-        title="Download App"
+        title="App Herunterladen"
         className="h-[70vh]"
         shouldCloseOnAction
       >

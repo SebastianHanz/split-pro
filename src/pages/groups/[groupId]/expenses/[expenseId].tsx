@@ -24,7 +24,7 @@ const ExpensesPage: NextPageWithUser<{ storagePublicUrl?: string }> = ({
   return (
     <>
       <Head>
-        <title>Hervorragende Bilanzen</title>
+        <title>Übersicht Bilanzen</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainLayout

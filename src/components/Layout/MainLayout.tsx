@@ -93,7 +93,11 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children, actions, hideAppBar, 
           link="/groups"
           currentPath={currentPath}
         />
-        <NavItem title="Add" Icon={SolidPlusCircleIcon} link="/add" currentPath={currentPath} />
+        <NavItem 
+          title="Ausgabe hinzufügen" 
+          Icon={SolidPlusCircleIcon} 
+          link="/add" 
+          currentPath={currentPath} />
         <NavItem
           title="Aktivitäten"
           Icon={SolidListBulletIcon}

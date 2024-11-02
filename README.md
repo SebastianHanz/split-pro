@@ -13,41 +13,41 @@
   </p>
 </p>
 
-## About
+## Über diese App
 
-SplitPro aims to provide an open-source way to share expenses with your friends.
+SplitPro zielt darauf ab, eine Open-Source-Lösung zum Teilen von Ausgaben mit Freunden bereitzustellen.
 
-It's meant to be a complete replacement for Splitwise.
+Es soll ein vollständiger Ersatz für Splitwise sein.
 
-It currently has most of the important features.
+Aktuell sind die meisten wichtigen Funktionen vorhanden.
 
-- Add expenses with an individual or groups
-- Overall balances across the groups
-- Multiple currency support
-- Upload expense bills
-- PWA support
-- Split expense unequally (share, percentage, exact amounts, adjustments)
-- Push notification
-- Download your data
-- Import from splitwise
+- Ausgaben mit Einzelpersonen oder Gruppen hinzufügen
+- Gesamtsalden über alle Gruppen hinweg
+- Unterstützung für mehrere Währungen
+- Hochladen von Rechnungen für Ausgaben
+- PWA-Unterstützung (installierbar als Web-App)
+- Ungleiche Aufteilung von Ausgaben (Anteile, - Prozentsätze, genaue Beträge, Anpassungen)
+- Push-Benachrichtigungen
+- Herunterladen deiner Daten
+- Import von Splitwise
 
-**More features coming every day**
+**Der Funktionsumfang wird ständig erweitert**
 
 ---
 
-## Why
+## Wieso
 
-Splitwise is one of the best apps to add expenses and bills.
+Splitwise ist eine der besten Apps, um Ausgaben und Rechnungen hinzuzufügen.
 
-I understand that every app needs to make money, After all, lots of effort has been put into Splitwise. My main problem is how they implemented this.
+Ich verstehe, dass jede App Geld verdienen muss; schließlich wurde viel Aufwand in Splitwise gesteckt. Mein Hauptproblem ist jedoch, wie sie dies umgesetzt haben.
 
-Monetising on pro features or ads is fine, but asking money for adding expenses (core feature) is frustrating.
+Die Monetarisierung durch Pro-Funktionen oder Werbung ist in Ordnung, aber Geld für das Hinzufügen von Ausgaben (einer Kernfunktion) zu verlangen, ist frustrierend.
 
-I was searching for other open-source alternatives (Let's be honest, any closed-source product might do the same and I don't have any reason to believe otherwise).
+Ich habe nach anderen Open-Source-Alternativen gesucht (um ehrlich zu sein, könnte jedes geschlossene Produkt dasselbe tun, und ich habe keinen Grund, das Gegenteil anzunehmen).
 
-I managed to find a good app [spliit.app](https://spliit.app/) by [Sebastien Castiel](https://scastiel.dev/) but it's not a complete replacement and didn't suit my workflow sadly. Check it out to see if it fits you.
+Ich habe eune gute App [spliit.app](https://spliit.app/) von [Sebastien Castiel](https://scastiel.dev/) gefunden, aber sie ist für mich kein vollständiger Ersatz für Splitwise und passt nicht zu meinem workflow. Probiert sie aus und schaut wie sie zu euch passt.
 
-_That's when I decided to work on this_
+_Darum habe ich mich entschlossen dieses Projekt zu beginnen_
 
 ## Tech stack
 
@@ -61,7 +61,7 @@ _That's when I decided to work on this_
 
 ## Getting started.
 
-### Prerequisites
+### Anforderungen
 
 - Node.js (Version: >=18.x)
 - PostgreSQL

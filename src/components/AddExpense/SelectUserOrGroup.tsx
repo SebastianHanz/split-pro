@@ -109,7 +109,7 @@ export const SelectUserOrGroup: React.FC<{
             onClick={() => onAddEmailClick(false)}
           >
             <UserPlusIcon className="mr-2 h-4 w-4" />
-            Add to Split Pro
+            Zu SplitPro hinzufügen
           </Button>
         </div>
       </div>
@@ -151,7 +151,7 @@ export const SelectUserOrGroup: React.FC<{
         {/*Can't select multiple groups or groups with outside ppl */}
         {filteredGroups?.length && participants.length === 1 ? (
           <>
-            <div className="mt-8 text-gray-500">Groups</div>
+            <div className="mt-8 text-gray-500">Gruppen</div>
             <div className="mt-2 flex flex-col gap-1">
               {filteredGroups.map((g) => (
                 <button
