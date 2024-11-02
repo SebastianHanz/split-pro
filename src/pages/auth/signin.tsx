@@ -94,8 +94,8 @@ const Home: NextPage<{ feedbackEmail: string; providers: ClientSafeProvider[] }>
   return (
     <>
       <Head>
-        <title>SplitPro: Split Expenses with your friends for free</title>
-        <meta name="description" content="SplitPro: Split Expenses with your friends for free" />
+        <title>SplitPro: Teile Ausgaben mit deinen Freunden kostenlos!</title>
+        <meta name="description" content="SplitPro: Teile Ausgaben mit deinen Freunden kostenlos!" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex h-full flex-col justify-center lg:justify-normal">
@@ -117,7 +117,7 @@ const Home: NextPage<{ feedbackEmail: string; providers: ClientSafeProvider[] }>
             ))}
           {providers && providers.length === 2 && (
             <div className="mt-6 flex w-[300px]  items-center justify-between gap-2">
-              <p className=" z-10 ml-[150px] -translate-x-1/2 bg-background px-4 text-sm">or</p>
+              <p className=" z-10 ml-[150px] -translate-x-1/2 bg-background px-4 text-sm">oder</p>
               <div className="absolute h-[1px] w-[300px]  bg-gradient-to-r from-zinc-800 via-zinc-300 to-zinc-800"></div>
             </div>
           )}
@@ -125,8 +125,8 @@ const Home: NextPage<{ feedbackEmail: string; providers: ClientSafeProvider[] }>
             emailStatus === 'success' ? (
               <>
                 <p className="mt-6 w-[300px] text-center text-sm">
-                  We have sent an email with the OTP. Please check your inbox
-                </p>
+                  Wir haben dir eine E-Mail mit einem OTP gesendet. Bitte überprüfe dein Postfach.
+                  </p>
                 <Form {...otpForm}>
                   <form onSubmit={otpForm.handleSubmit(onOTPSubmit)} className="mt-6 space-y-8">
                     <FormField
@@ -198,7 +198,7 @@ const Home: NextPage<{ feedbackEmail: string; providers: ClientSafeProvider[] }>
             )
           ) : null}
           <p className="mt-6 w-[300px] text-center text-sm text-muted-foreground">
-            Trouble logging in? contact
+            Probleme beim Einloggen? Kontakt
             <br />
             <a className="underline" href={'mailto:' + feedbackEmail}>
               {feedbackEmail ?? ''}

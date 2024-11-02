@@ -22,11 +22,11 @@ const BalancePage: NextPageWithUser = () => {
       navigator
         .share({
           title: 'SplitPro',
-          text: "Check out SplitPro. It's an open source free alternative for Splitwise",
+          text: "Probiere SplitPro aus. Es ist eine open-source-Alternative zu Splitwise",
           url: 'https://splitpro.app',
         })
-        .then(() => console.log('Successful share'))
-        .catch((error) => console.log('Error sharing', error));
+        .then(() => console.log('Erfolgreich geteilt'))
+        .catch((error) => console.log('Fehler beim Teilen', error));
     }
   }
 
@@ -60,7 +60,7 @@ const BalancePage: NextPageWithUser = () => {
                 <div className="mt-2 px-1">
                   <div className="flex items-center justify-center gap-2 text-center">
                     {/* <ArrowLeftCircleIcon className=" h-6 w-6 rotate-45 transform text-orange-700" /> */}
-                    <p className="text-sm">You owe</p>
+                    <p className="text-sm">Du schuldest</p>
                   </div>
                 </div>
                 <div className="mb-2 mt-4 flex flex-wrap justify-center gap-1">
@@ -81,7 +81,7 @@ const BalancePage: NextPageWithUser = () => {
               <div className="w-1/2 rounded-2xl border  px-2 py-2 ">
                 <div className="mt-2 flex flex-col justify-center bg-opacity-40 px-1">
                   <div className="flex items-center justify-center gap-2">
-                    <p className="text-sm">You get</p>
+                    <p className="text-sm">Du bekommst</p>
                   </div>
                 </div>
                 <div className="mb-2 mt-4 flex flex-wrap justify-center gap-1">

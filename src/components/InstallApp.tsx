@@ -35,19 +35,19 @@ const InstallApp: React.FC = () => {
         trigger={
           <Button className="w-[250px]">
             <Download className="mr-2 h-5 w-5 text-black" />
-            App Herunterladen
+            App herunterladen
           </Button>
         }
-        leftAction="Close"
-        title="App Herunterladen"
+        leftAction="Schließen"
+        title="App herunterladen"
         className="h-[70vh]"
         shouldCloseOnAction
       >
         <div className="flex flex-col gap-8">
-          <p>You can download SplitPro as a PWA to your home screen</p>
+          <p>Du kannst SplitPro als PWA auf deinen Home-Screen speichern:</p>
 
           <p>
-            If you are using iOS, checkout this{' '}
+          Wenn du iOS benutzt, siehe hier:{' '}
             <a
               className="text-cyan-500 underline"
               href="https://youtube.com/shorts/MQHeLOjr350"
@@ -58,7 +58,7 @@ const InstallApp: React.FC = () => {
           </p>
 
           <p>
-            If you are using Android, checkout this{' '}
+          Wenn du Android benutzt, siehe hier:{' '}
             <a
               className="text-cyan-500 underline"
               href="https://youtube.com/shorts/04n7oKGzgOs"
